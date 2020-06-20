@@ -1,1 +1,16 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  margin-top: 105px;
+}
+
+.navbar {
+  -webkit-box-shadow: 2px 2px 5px #3292a6;
+          box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: #fff;
+}
+
+.navbar .nav-item {
+  font-size: 1.5rem;
+  padding-right: 20px;
+}
+/*# sourceMappingURL=style.css.map */
