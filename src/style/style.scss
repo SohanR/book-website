@@ -1,4 +1,5 @@
-$primary: #3292a6;
+$primary: #1664f5;
+$primary-overlay: rgba(50, 146, 166, 0.8);
 
 body {
   margin-top: 105px;
@@ -12,5 +13,31 @@ body {
   .nav-item {
     font-size: 1.5rem;
     padding-right: 20px;
+  }
+}
+
+#showcase {
+  position: relative;
+  background: url("../img/mountain.jpg");
+  min-height: 600px;
+
+  .primary-overlay {
+    background: $primary-overlay;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    .container {
+      .col-lg-6 {
+        padding-top: 70px;
+        padding-left: 10px;
+        .img-fluid {
+          height: 450px;
+          width: 350px;
+        }
+      }
+    }
   }
 }
