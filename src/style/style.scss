@@ -54,3 +54,21 @@ body {
     background: $new-primary;
   }
 }
+
+#about {
+  .info-header {
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px #ddd solid;
+
+    h1 {
+      color: $new-primary;
+    }
+  }
+
+  #accordion {
+    .btn-link {
+      text-decoration: none;
+    }
+  }
+}

@@ -46,4 +46,18 @@ body {
 #boxes .new-primary {
   background: #16aef5;
 }
+
+#about .info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid;
+}
+
+#about .info-header h1 {
+  color: #16aef5;
+}
+
+#about #accordion .btn-link {
+  text-decoration: none;
+}
 /*# sourceMappingURL=style.css.map */
