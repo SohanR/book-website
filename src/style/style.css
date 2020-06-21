@@ -1,3 +1,7 @@
+h1 {
+  color: #16aef5;
+}
+
 body {
   margin-top: 105px;
 }
@@ -53,11 +57,24 @@ body {
   border-bottom: 1px #ddd solid;
 }
 
-#about .info-header h1 {
-  color: #16aef5;
-}
-
 #about #accordion .btn-link {
   text-decoration: none;
+}
+
+#authors img {
+  margin-top: -50px;
+}
+
+#authors .fab {
+  font-size: 25px;
+}
+
+#authors .card:hover {
+  background: #1664f5;
+  color: #fff;
+}
+
+#authors .card:hover .fab {
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */

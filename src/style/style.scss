@@ -2,6 +2,10 @@ $primary: #1664f5;
 $primary-overlay: rgba(63, 73, 102, 0.8);
 $new-primary: #16aef5;
 
+h1 {
+  color: $new-primary;
+}
+
 body {
   margin-top: 105px;
 }
@@ -60,15 +64,30 @@ body {
     width: 50%;
     margin: auto;
     border-bottom: 1px #ddd solid;
-
-    h1 {
-      color: $new-primary;
-    }
   }
 
   #accordion {
     .btn-link {
       text-decoration: none;
+    }
+  }
+}
+
+#authors {
+  img {
+    margin-top: -50px;
+  }
+
+  .fab {
+    font-size: 25px;
+  }
+
+  .card:hover {
+    background: $primary;
+    color: #fff;
+
+    .fab {
+      color: #fff;
     }
   }
 }
