@@ -1,5 +1,6 @@
 $primary: #1664f5;
-$primary-overlay: rgba(50, 146, 166, 0.8);
+$primary-overlay: rgba(63, 73, 102, 0.8);
+$new-primary: #16aef5;
 
 body {
   margin-top: 105px;
@@ -39,5 +40,17 @@ body {
         }
       }
     }
+  }
+}
+
+#newsletter {
+  .faenvelope {
+    background: $new-primary;
+  }
+}
+
+#boxes {
+  .new-primary {
+    background: $new-primary;
   }
 }

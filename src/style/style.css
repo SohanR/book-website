@@ -21,7 +21,7 @@ body {
 }
 
 #showcase .primary-overlay {
-  background: rgba(50, 146, 166, 0.8);
+  background: rgba(63, 73, 102, 0.8);
   position: absolute;
   top: 0;
   left: 0;
@@ -37,5 +37,13 @@ body {
 #showcase .primary-overlay .container .col-lg-6 .img-fluid {
   height: 450px;
   width: 350px;
+}
+
+#newsletter .faenvelope {
+  background: #16aef5;
+}
+
+#boxes .new-primary {
+  background: #16aef5;
 }
 /*# sourceMappingURL=style.css.map */
