@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Website for book template",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "@marlospomin/smoothie": "^1.0.5",
+    "smoothie-js": "^1.0.3"
+  },
   "devDependencies": {
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
